@@ -1,0 +1,48 @@
+*{
+    font-family: 'Raleway';
+}
+.desc{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    text: justify;
+}
+.project{
+    align: center;
+    padding-left: auto;
+    padding-right: auto;
+}
+.sidebyside1{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 15%;
+}
+.sidebyside2{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10%;
+}
+iframe{
+    margin-left: 5%;
+    width: 90%;
+}
+.spacer{
+    height: 50px;
+}
+h1{
+    margin-left: 5%;
+}
+h4{
+    margin-left: 10%;
+}
+body{
+    padding-top: 65px;
+}
+hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ff0000;
+    margin: 1em 0;
+    padding: 0; 
+}

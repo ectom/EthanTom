@@ -1,0 +1,69 @@
+*{
+    font-family: 'Raleway';
+}
+.aboutme{
+    padding-left: 2%;
+    border: 1px solid black;
+    width: 100%;
+}
+.aboutp{
+    width: 40%;
+    display: inline-block;
+    margin-left: 5%;
+    vertical-align: middle;
+}
+.me{
+    display: inline-block;
+    width: 30%;
+    margin-left: 20%;
+    vertical-align: middle;
+}
+.links{
+    margin-left: 5%;
+}
+.bar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+h2{
+    margin-left: 5%;
+}
+.project h4{
+    margin-left: 10%;
+}
+.projectTitle{
+    text-align: center;
+    margin-right: 5%;
+}
+.contactTitle{
+    text-align: center;
+    margin-right: 5%;
+}
+.contactInfo{
+    text-align: center;
+}
+.contact{
+    background-color: gray;
+}
+table{
+    margin: auto;
+    border-spacing: 10px;
+    border-collapse: separate;
+    padding: 10px;
+}
+.spacer{
+    height: 50px;
+}
+.logo{
+    width: 25px;
+    height: 25px;
+}
+.yellow{
+    color: #e5d93c;
+}
