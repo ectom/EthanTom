@@ -34,8 +34,19 @@
 h2{
     margin-left: 5%;
 }
-.project h4{
-    margin-left: 10%;
+.projSec{
+    background-image: url('../../assets/pback.png');
+    height: 100%%;
+    width: 100%;
+    min-height: 810px;
+    min-width: 540px;
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+.projectTitle{
+    color: #cccccc;
+    margin-bottom: 3%;
 }
 .projectTitle{
     text-align: center;
@@ -44,12 +55,20 @@ h2{
 .contactTitle{
     text-align: center;
     margin-right: 5%;
+    color: #cccccc;
 }
 .contactInfo{
     text-align: center;
+    color: #cccccc;
 }
 .contact{
-    background-color: gray;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background: #000033; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#000033, #003a6b); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#000033, #003a6b); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#000033, #003a6b); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#000033, #003a6b); /* Standard syntax */
 }
 table{
     margin: auto;
