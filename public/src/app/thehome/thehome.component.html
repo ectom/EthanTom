@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+  <div class="aboutme">
+    <a id="home" class="smooth"></a>
+    <div class="spacer"></div>
+    <div class="hello">
+      <!-- <img class="me" src="../assets/photo.jpg">  put a background pic here -->
+    </div>
+    <div class="greeting">
+      <h1>Hello! My name is Ethan Tom</h1>
+      <h3>Aspiring Web Developer and Software Engineer</h3>
+    </div>
+
+
+    <a id="about" class="smooth"></a>
+    <div class="spacer"></div>
+    <div class="hello">
+      <img class="me" src="../assets/photo.jpg">
+    </div>
+    <div class="aboutp">
+      <h1>About Me</h1>
+      <p>
+        Hello! My name is Ethan Tom and I am currently a third year at the University of California, Santa Cruz. I am working hard for a bachelors of science in Computer Science and minor in Technology and Information Management. I was born and raised in San
+        Francisco. I have recently attended a coding bootcamp called Coding Dojo where I learned full-stack development in Python, MEAN, and Swift.
+      </p>
+      <p>
+        To keep up with my coding skills I decided to create this portfolio website using MongoDB, Express.js, Angular 4, and Node.js. I am constantly working on this website and uploading more projects
+        so be sure to check back every so often in case you find one of my projects interesting!
+      </p>
+      <p>
+        I am still in school so I am looking for an internship in full stack iOS/web development. I am still learning and want to learn more so I do not want to limit myself to just web and iOS development. I am open to any type of development. If you think I
+        may be a good fit, please send me an email! My email is down below in the contact section.
+      </p>
+    </div>
+
+
+    <h5 class="links"><a href="https://www.github.com/ectom/" target="_blank">Github</a> | <a href="https://www.linkedin.com/in/ectom/" target="_blank">Linkedin</a> | <a href="/assets/resume.pdf" download  target="_blank">Resume</a></h5>
+  </div>
+
+  <a id="projects" class="smooth"></a>
+  <div class="projSec">
+    <div class="spacer"></div>
+    <h2 class='projectTitle'>Projects</h2>
+    <div class="project">
+      <table>
+        <tr>
+          <td><button [routerLink]='["Python-Belt-Exam"]' type="button" class="btn btn-primary">Python Belt Exam</button></td>
+          <td><button [routerLink]='["MEAN-Belt-Exam"]' type="button" class="btn btn-primary">MEAN Belt Exam</button></td>
+          <td><button [routerLink]='["taskation"]' type="button" class="btn btn-primary">Taskation</button></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <a id="contact" class="smooth"></a>
+  <div class="contact">
+    <h2 class='contactTitle'>Contact Me</h2>
+    <div class="contactInfo">
+      <form class="emailMe" #emailData="ngForm" method="post">
+        <p><label for="name">Name<span class='red'>*</span></label></p>
+        <p><input type="text" name="firstName" placeholder="First Name" [(ngModel)]='email.firstName' #firstName='ngModel' required><input type="text" name="lastName" placeholder="Last Name" [(ngModel)]='email.lastName' #lastName='ngModel' required></p>
+        <p><label for="sender">Your Email<span class='red'>*</span></label><input type="email" name="emailAddress" [(ngModel)]='email.emailAddress' #emailAddress='ngModel' required></p>
+        <p><label for="subject">Subject<span class='red'>*</span></label><input type="text" name="subject" [(ngModel)]='email.subject' #subject='ngModel' required></p>
+        <p><label for="message">Message<span class='red'>*</span></label><textarea type="text" name="message" style="width:700px; height:300px;" [(ngModel)]='email.message' #message='ngModel' required></textarea></p>
+        <p><button [routerLink]='["/thankyou"]' type="button" (click)='sendMail(emailData)' [disabled]='!emailData.valid' disabled>Send</button></p>
+      </form>
+      <!-- <p>Email: <a class="yellow" href="mailto:ethanchristophertom@gmail.com?Subject=Email%20From%20Website">ethanchristophertom@gmail.com</a></p> -->
+      <p><img src="../assets/github.png" class="logo"> <a class="yellow" target="_blank" href="https://github.com/ectom">/ectom</a> <img src="../assets/linkedin.png" class="logo"> <a class="yellow" target="_blank" href="https://linkedin.com/in/ectom">/ectom</a></p>
+    </div>
+  </div>
+</body>
+
+</html>

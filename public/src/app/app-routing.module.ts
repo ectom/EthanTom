@@ -5,14 +5,15 @@ import { PythonBeltComponent } from './python-belt/python-belt.component';
 import { MeanBeltComponent } from './mean-belt/mean-belt.component';
 import { TaskationComponent } from './taskation/taskation.component';
 import { ErrorComponent } from './error/error.component';
-import { HomeComponent } from './home/home.component';
 import { ConstructionComponent } from './construction/construction.component';
+import { ThankyouComponent } from './thankyou/thankyou.component';
+import { ThehomeComponent } from './thehome/thehome.component';
 
 const routes: Routes = [
     {
         path: '',
         pathMatch: 'full',
-        component: HomeComponent,
+        component: ThehomeComponent,
         children: []
     },
     {
@@ -31,6 +32,12 @@ const routes: Routes = [
         path: 'taskation',
         pathMatch: 'full',
         component: ConstructionComponent,
+        children: []
+    },
+    {
+        path: 'thankyou',
+        pathMatch: 'full',
+        component: ThankyouComponent,
         children: []
     },
     {

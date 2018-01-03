@@ -1,22 +1,40 @@
 *{
     font-family: 'Raleway';
 }
-.aboutme{
-    padding-left: 2%;
-    border: 1px solid black;
-    width: 100%;
+.greeting{
+    margin: auto;
+    color: #cccccc;
 }
-.aboutp{
-    width: 40%;
-    display: inline-block;
-    margin-left: 5%;
-    vertical-align: middle;
+.hello{
+    padding-top: 50px;
 }
 .me{
+    display: block;
+    width: 40%;
+    margin: auto;
+    border-radius: 50%;
+    max-width: 500px;
+    max-height: 500px;
+    border: 3px solid white;
+}
+.aboutme{
+    padding-left: 2%;
+    width: 100%;
+    background-color: #003648;
+    color: #cccccc;
+}
+.aboutp h1{
+    margin-top: 40px;
+    text-align: center;
+    font-weight: 400;
+    border: 6px double #cccccc;
+}
+.aboutp{
+    width: 80%;
     display: inline-block;
-    width: 30%;
-    margin-left: 20%;
+    margin-left: 10%;
     vertical-align: middle;
+    font-size: 125%;
 }
 .links{
     margin-left: 5%;
@@ -35,6 +53,7 @@ h2{
     margin-left: 5%;
 }
 .projSec{
+    margin-top: -10px;
     background-image: url('../../assets/pback.png');
     height: 100%%;
     width: 100%;
@@ -85,4 +104,7 @@ table{
 }
 .yellow{
     color: #e5d93c;
+}
+.emailMe input{
+    border-radius: 5px
 }

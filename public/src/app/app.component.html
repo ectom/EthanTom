@@ -2,9 +2,12 @@
     <meta charset="utf-8">
     <title>Home Page</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <script>
         $('.smooth').on('click', function() {
             $.smoothScroll({
@@ -18,7 +21,7 @@
 </head>
 
 <!-- navigation bar -->
-<div class="bar">
+<!-- <div class="bar">
     <nav class="navbar navbar-inverse" style="border-radius:0">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -30,7 +33,65 @@
         </ul>
       </div>
     </nav>
-</div>
+</div> -->
+
+<!-- fwofwejkbfwjbfwej -->
+<div _ngcontent-c1="" class="navbar navbar-fixed-top" id="main-nav">
+        <div _ngcontent-c1="" class="container">
+
+            <div _ngcontent-c1="" class="navbar-header">
+
+                <button _ngcontent-c1="" class="navbar-toggle" data-target="#site-nav" data-toggle="collapse" type="button">
+                    <span _ngcontent-c1="" class="icon-bar"></span><span _ngcontent-c1="" class="icon-bar"></span><span _ngcontent-c1="" class="icon-bar"></span>
+                </button>
+
+
+                <a _ngcontent-c1="" class="navbar-brand visible-xs scrollto" href="#home">ET</a>
+
+            </div>
+
+            <div _ngcontent-c1="" class="navbar-collapse collapse" id="site-nav">
+                <ul _ngcontent-c1="" class="nav navbar-nav">
+                    <li _ngcontent-c1="" class="">
+                        <a _ngcontent-c1="" class="scrollto" href="#about">About Me</a>
+                    </li>
+                    <li _ngcontent-c1="" class="">
+                        <a _ngcontent-c1="" class="scrollto" href="#skills">My Skills</a>
+                    </li>
+                    <li _ngcontent-c1="" id="logo" class="active">
+                        <a _ngcontent-c1="" class="scrollto" href="#home">
+                            <h1 _ngcontent-c1="">E<span _ngcontent-c1="">T</span></h1>
+                        </a>
+                    </li>
+                    <li _ngcontent-c1="" class="">
+                        <a _ngcontent-c1="" class="scrollto" href="#projects">Projects</a>
+                    </li>
+                    <li _ngcontent-c1="" class="">
+                        <a _ngcontent-c1="" class="scrollto" href="#contact">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+<!-- <div class="clear">
+    <nav class="navbar" style="border-radius:0">
+      <div class="container-fluid white">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#home">Ethan Tom</a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">=
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
+</div> -->
 <!-- end of navigation bar -->
 
 <router-outlet></router-outlet>
