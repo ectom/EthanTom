@@ -5,7 +5,7 @@ require('dotenv').config();
 
 module.exports = {
     send: function(req, res) {
-        var transporter = nodemailer.createTransport({
+        const transporter = nodemailer.createTransport({
             port: 465,
             secure: true, // true for 465, false for other ports
             service: 'gmail',
@@ -15,7 +15,7 @@ module.exports = {
             }
         });
 
-        var mailOptions = {
+        const mailOptions = {
             from: process.env.EMAIL_ADDR,
             to: process.env.EMAIL_ADDR,
             subject: req.body.subject,
@@ -30,8 +30,8 @@ module.exports = {
             }
         });
         // ---------------- save to database ------------------------
-        var contact = new Contact(req.body);
-        var find = Contact.findOne({emailAddress: req.body.email})
+        const contact = new Contact(req.body);
+        const find = Contact.findOne({emailAddress: req.body.email});
         if (find == undefined) {
             contact.save()
                 .then(() => {

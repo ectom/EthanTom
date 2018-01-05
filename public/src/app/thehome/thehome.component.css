@@ -1,9 +1,34 @@
 *{
     font-family: 'Raleway';
 }
+.container{
+    position: relative;
+}
+.backgroundOfMe{
+    /* background-image: url('../../assets/photo.jpg'); */
+    /* background-repeat: no-repeat; */
+    height: 20%;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 700px;
+    min-width: 120px;
+    position: absolute;
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+    padding-top: 20%;
+    z-index: 1000;
+}
+.imgMe{
+    height: 100%;
+    width: 116.17%;
+    margin-left: -10%;
+}
 .greeting{
     margin: auto;
+    text-align: center;
     color: #cccccc;
+    text-shadow: 2px 2px 8px black;
 }
 .hello{
     padding-top: 50px;
@@ -18,7 +43,7 @@
     border: 3px solid white;
 }
 .aboutme{
-    padding-left: 2%;
+    /* padding-left: 2%; */
     width: 100%;
     background-color: #003648;
     color: #cccccc;
@@ -59,22 +84,22 @@ h2{
     width: 100%;
     min-height: 810px;
     min-width: 540px;
-    background-size:     cover;
-    background-repeat:   no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-position: center center;
 }
 .projectTitle{
     color: #cccccc;
     margin-bottom: 3%;
-}
-.projectTitle{
     text-align: center;
+    text-shadow: 2px 2px 8px black;
     margin-right: 5%;
 }
 .contactTitle{
     text-align: center;
     margin-right: 5%;
     color: #cccccc;
+    text-shadow: 2px 2px 8px black;
 }
 .contactInfo{
     text-align: center;
